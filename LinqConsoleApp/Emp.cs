@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.InteropServices.ComTypes;
 using System.Text;
 
 namespace LinqConsoleApp
@@ -16,7 +17,7 @@ namespace LinqConsoleApp
 
         public override string ToString()
         {
-            return Ename + " (" + Empno + ")";
+            return Ename + " (" + Empno + ") " + Job + " " + Salary;
         }
     }
 }
